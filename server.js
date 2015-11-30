@@ -12,4 +12,4 @@ message = req.params.motd
   res.send('Message updated.')
 })
 
-app.listen(3000)
+app.listen(process.env.PORT || 3000)
